@@ -1,3 +1,63 @@
+/*GENERAL*/
 body{ 
-    background-color: gold ;
+    color: black;
+    background: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+
 }
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-weight: 900;
+font-size: 30px;
+
+}
+
+.menu{
+
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.fa {
+    vertical-align: middle;
+}
+
+
+
+.menu li{
+    float: left;
+}
+
+.container {
+ width: 1170px;
+ margin: auto;
+ 
+
+}
+/*CONTACT*/
+
+.contact-bar{
+    height: 60px;
+    background-color: teal;
+    font-size: 15px;
+}
+
+.personal{
+
+    float: left;
+}
+
+.social{
+    float: right;
+}
+
+/*NAVIGATION*/ 
