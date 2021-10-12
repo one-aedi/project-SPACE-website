@@ -2,24 +2,35 @@
 body{ 
     color: black;
     background: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
     -webkit-font-smoothing: antialiased;
+}
 
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after {
+    content: " ";
+    display: table;
+}
+
+.container:after,
+.group:after,
+.menu:after{
+    clear: both;  
+}
+
+.container,
+.group,
+.menu{
+    *zoom: 1;
 }
 
 a {
     text-decoration: none;
 }
-
-h1 {
-font-family: 'Montserrat', sans-serif;
-font-family: 'Quicksand', sans-serif;
-font-weight: 900;
-font-size: 30px;
-
-}
-
 .menu{
 
     list-style: none;
@@ -31,33 +42,79 @@ font-size: 30px;
     vertical-align: middle;
 }
 
-
-
 .menu li{
     float: left;
 }
 
 .container {
  width: 1170px;
- margin: auto;
- 
-
+ margin: auto; 
 }
+
+
 /*CONTACT*/
 
 .contact-bar{
-    height: 60px;
-    background-color: teal;
+    height: 80px;
+    background-color: #E5E5E5;
     font-size: 15px;
-}
-
-.personal{
-
-    float: left;
 }
 
 .social{
     float: right;
+    margin-top: 25px;
+}
+
+.social-icon{
+    display: block;
+    color: black;    
+    margin-right: 20px;
+}
+
+.social-icon:hover,
+.social-icon:focus{
+    color: grey;
+    
 }
 
 /*NAVIGATION*/ 
+
+.navigation{
+    float: right;
+    margin-top: 20px;
+    
+}
+
+.navigation a{
+    display: block;
+    color: black;
+    width: 150px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center; 
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.navigation .fa{
+    margin-right: 10px;
+    font-size: 16px;
+    
+}
+
+.selected a,
+.navigation a:hover,
+.navigation a:focus{
+    background: black;
+    color: white;
+}
+
+.logo a {
+    display: block;
+    color: black;
+    font-size: 80px
+    
+    
+   
+}
