@@ -4,6 +4,7 @@ body{
     background: whitesmoke;
     font-family: 'Raleway', sans-serif;
     -webkit-font-smoothing: antialiased;
+    
 }
 
 .container:before,
@@ -139,4 +140,31 @@ text-align: center;
     font-size: 16px;
     line-height: 30px;
     margin-top: 50px;
+}
+
+/*responsible*/
+
+@media screen and (max-width: 1140px ) {
+    .container{
+        width: 100%;
+    }
+
+    .post-content h2{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .post-title{
+        padding-left: 50px;
+    }
+    
+}
+
+
+@media screen and (max-width: 530px ) {
+
+    .logo a{
+        font-size: 50px;
+    }
+
 }
