@@ -140,19 +140,21 @@ a {
     font-weight: 300;  
     text-transform: uppercase;
     letter-spacing: 10px;
-    padding-top: 35px;
+    padding-top: 28px;
     padding-left: 25px;
+   
 }
 
 /*article*/
 .text-center{
 text-align: center;
-
+height: 150px;
+padding-top: 150px;
 }
 
 .post-header{
     height: 200px;
-    background-color: violet;
+    background-color: grey;
 }
 
 .nav-bar{
@@ -160,43 +162,6 @@ text-align: center;
     height: 1000px;
 }
 
-.wrapper {
-    height: 8vh;
-    margin-top: 240px;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    font-size: 60px;
-    letter-spacing: 10px;
-    font-weight: 900;
-    color: white;
-
-    /*This part is important for centering*/
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .typing-demo {
-    width: 35ch;
-    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: 'Raleway', sans-serif;
-    
-  }
-  
-  @keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    100% {
-      border-color: transparent
-    }
-  }
 
 .post-title{
     color: white;
@@ -210,6 +175,91 @@ text-align: center;
     line-height: 30px;
     color: white;
 }
+
+
+
+/*INTRO*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+  
+  .container0 {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 60%;
+    width: 450px;
+    background: black;
+    display: block;
+    border-radius: 8px;
+    opacity: 80%;
+    
+  }
+
+  .container1 {
+    text-align: center;
+    position: relative;
+    top: 20%;
+    left: 5%;
+    width: 0px;
+    background: black;
+    padding: 20px 20px 40px;
+    
+  }
+  
+  .container1 span {
+    text-transform: uppercase;
+    display: block;
+   
+  }
+  
+  .text1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    color: white;
+    animation: text 3s 1;
+    
+    
+  }
+  
+  .text2 {
+    font-size: 20px;
+    color: #47DDE5;
+    text-shadow: grey;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+  
+.text2:hover,
+.text2:focus{
+    color: yellow;
+    cursor: pointer;
+  }
+  
+  @keyframes text {
+
+    0% {
+    letter-spacing: 8px;
+    font-size: 0px;
+    }
+    30% {
+    
+      letter-spacing: 8px;
+      font-size: 50px;
+      
+      }
+    85% {
+      letter-spacing: 8px;
+      font-size: 50px;
+      
+    }
+   
+
 
 /*responsible*/
 
