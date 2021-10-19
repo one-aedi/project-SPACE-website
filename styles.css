@@ -62,39 +62,6 @@ a {
     
 }
 
-.social{
-    float: right;
-    display: block;
-    margin-bottom: 50px;
-    
-}
-
-.social-icon{
-    display: block;
-    color: white; 
-    
-   
-}
-
-.social-icon2{
-    display: block;
-    color: white;
-    margin-right: 60px;
-    margin-left: 40px;   
-   
-}
-.social-icon:hover,
-.social-icon:focus{
-    display: block;
-    color: grey;
-    
-}
-
-.social-icon2:hover,
-.social-icon2:focus{
-    display: block;
-    color: #0A66C2;
-}
 /*NAVIGATION<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/ 
 
 .navigation{
@@ -156,30 +123,98 @@ a {
    
 }
 
-/*article<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-.text-center{
-text-align: center;
-opacity: 50%;
-padding-left: 0px;
-padding-bottom: 20px;
-}
-
 .nav-bar{
     background: url('./images_project2/earth2.jpg') center -230px no-repeat;
-    height: 850px;
+    height: 800px;
 }
 
-.post-content h2{
-    font-size: 16px;
-    line-height: 30px;
+/*FOOTER<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.container-pata{
+    background-color: black;
+    width: 1700px;
+    height: 50px;
+    margin: auto;
+    display: block;
+}
+.social{
+    float: right;
+    display: block;
+    padding-top: 40px;
+    
+    
+}
+
+.social-icon{
+    display: block;
+    color: white; 
+    
+      
+}
+
+.social-icon2{
+    display: block;
+    color: white;
+    margin-right: 0px;
+    margin-left: 40px;   
+   
+}
+.social-icon:hover,
+.social-icon:focus{
+    display: block;
+    color: grey;
+    
+}
+
+.social-icon2:hover,
+.social-icon2:focus{
+    display: block;
+    color: #0A66C2;
+}
+
+.pata-text{
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: white;;
+    background-color: black;
+    width: 200px;
+    margin-left: 48%;
+    padding-top: 0px;
+    display: block;
+    
+}
+
+.pata-left{
+    float: left;
     color: white;
     font-family: 'Raleway', sans-serif;
-    font-weight: 100;
-    width: auto; 
-    text-align: center;
-    margin-top: 20px;  
+    font-weight: 500;
+    width: 200px;
+    height: 20px;
+    display: block;
+    margin-top: 25px;
+    border-right: white;
+    border-right-color: white;
+    border-style: solid;
+    border-width: 0.2px;
+    border-radius: 5px;
+    padding: 20px 35px 35px;
+    
 }
 
+.pata-right{
+    float: right;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    width: 400px;
+    height: 20px;
+    display: block;
+    margin-right: 100px;
+    margin-top: 45px;
+    
+
+}
 
 /*INTRO<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 * {
