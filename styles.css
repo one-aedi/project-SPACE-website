@@ -117,13 +117,14 @@ a {
     border-radius: 20px;
     margin-right: 10px;
     font-size: 16px;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     padding-top: 40px;
     
 }
 
 .navigation a:last-child{
     margin-right: 50px;
+    letter-spacing: 6px;
 
 }
 
@@ -229,7 +230,7 @@ padding-bottom: 20px;
     
   }
   
-  .text2 {
+  .text2 a{
     font-size: 20px;
     color: #47DDE5;
     text-shadow: grey;
@@ -350,3 +351,75 @@ padding-bottom: 20px;
     }
 
 }
+
+
+/*STORY>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.container3{
+    width: 1000px;
+    height: 350px;
+    background-color: darkcyan;
+    opacity: 80%;
+    border-radius: 10px;  
+    margin: auto;
+}
+
+.container00 {
+    text-align: center;
+    position: relative;
+    top: 28%;
+    margin: auto;
+    width: 1300px;
+    height: 560px;
+    background: black;
+    display: block;
+    border-radius: 8px;
+    opacity: 75%;
+    
+  }
+
+  .container01 {
+    text-align: center;
+    position: relative;
+    padding-top: 20px;
+
+
+  }
+
+  .story-title{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: px;
+    margin-bottom: px;
+    position: relative;
+    color: white;
+   
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: white;
+    text-align: justify;
+    padding-top: 66px;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-indent: 50px;
+    line-height: 1.8;
+    padding-bottom: px;
+   
+  }
+
+  p{
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color: white;
+    text-align: justify;
+    padding-top: 66px;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-indent: 50px;
+    line-height: 1.8;
+    padding-bottom: px;
