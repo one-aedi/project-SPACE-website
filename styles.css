@@ -531,6 +531,7 @@ a {
             width: 500px;
             border-radius: 8px;
             margin: 0 auto;
+            
         }
         
         .logg{
@@ -546,8 +547,10 @@ a {
         input:not([type="checkbox"])
             {
             font-family: 'Raleway', sans-serif;
+            font-weight: 400;
             margin: 0 10% 30px;
             background: #fff;
+            opacity: 90%;
             border: none;
             width: 250px;
             padding: 15px 20px;
@@ -560,6 +563,7 @@ a {
         
         input:focus{
             outline: 2px solid lightsteelblue;
+            font-weight: 400;
         }
         button{
             font-family: 'Raleway', sans-serif;
@@ -569,6 +573,7 @@ a {
             padding: 7px 5px 5px 5px;
             border-radius: 10px;
             background-color: white;
+            opacity: 90%;
             color: black;
             cursor: pointer;
             box-shadow: 0 0 0 3px rgba(0, 0, 0, .12);
@@ -599,6 +604,7 @@ a {
             cursor: pointer;
             margin-left: 50px;
             font-weight: 300;
+            opacity: 90%;
             
             
         }
@@ -608,6 +614,7 @@ a {
             width: 400px;
             border-radius: 10px;
             margin:0 auto;
+            opacity: 90%;
             
             
 
