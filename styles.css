@@ -558,7 +558,6 @@ a {
             display: block;
             box-shadow: 0 0 0 3px rgba(0, 0, 0, .12);
             
-           
         }
         
         input:focus{
@@ -605,17 +604,13 @@ a {
             margin-left: 50px;
             font-weight: 300;
             opacity: 90%;
-            
-            
+               
         }
 
         textarea{
             
             width: 400px;
             border-radius: 10px;
-            margin:0 auto;
+            margin: 0 auto;
             opacity: 90%;
-            
-            
-
         }
