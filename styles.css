@@ -300,96 +300,7 @@ a {
 
   }
 
-  /*responsible<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
-
-@media screen and (min-width: 1140px ) {
-    .container{
-        width: 75%;
-    }
-
-    .post-content h2{
-        padding-left: 40px;
-        padding-right: 30px;
-    }
-
-    .post-title{
-        padding-left: 50px;
-    }
-
-    .logo a{
-        display: block;
-    color: white;
-    font-size: 35px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;  
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    padding-top: 28px;
-    padding-left: 25px;
-
-    }
-    
-    .navigation a{
-        display: block;
-        color: white;
-        width: 130px;
-        height: 36px;
-        line-height: 36px;
-        text-align: center; 
-        border-radius: 20px;
-        margin-right: 10px;
-        font-size: 14px;
-        letter-spacing: 3px;
-        padding-top: 25px;
-        
-    }
-
-    .navigation a:last-child{
-        margin-right: 40px;
-    
-}
-
-.social{
-    float: right;
-    display: block;
-    margin-bottom: 50px;
-    
-    
-}
-
-.social-icon{
-    display: block;
-    color: white; 
-    
-}
-
-.social-icon2{
-    display: block;
-    color: white;
-    margin-left: 20px;   
-   
-}
-.social-icon:hover,
-.social-icon:focus{
-    display: block;
-    color: grey;
-    
-}
-
-.social-icon2:hover,
-.social-icon2:focus{
-    display: block;
-    color: #0A66C2;
-}
-
-@media screen and (max-width: 530px ) {
-
-    .logo a{
-        font-size: 50px;
-    }
-
-}
-
+ 
 
 /*STORY>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
@@ -501,7 +412,7 @@ a {
        
 
 
-    /*contact>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+    /*contact^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
     .container003{
         text-align: center;
         position: relative;
@@ -607,10 +518,105 @@ a {
                
         }
 
-        textarea{
-            
+        textarea {
             width: 400px;
             border-radius: 10px;
             margin: 0 auto;
             opacity: 90%;
-        }
+        }}
+
+         /*responsible<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+@media screen and (min-width: 1300px ) {
+    .container{
+        width: 75%;
+    }
+
+    .post-content h2{
+        padding-left: 40px;
+        padding-right: 30px;
+    }
+
+    .post-title{
+        padding-left: 50px;
+    }
+
+    .logo a{
+        display: block;
+    color: white;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;  
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    padding-top: 28px;
+    padding-left: 25px;
+
+    }
+    
+    .navigation a{
+        display: block;
+        color: white;
+        width: 130px;
+        height: 36px;
+        line-height: 36px;
+        text-align: center; 
+        border-radius: 20px;
+        margin-right: 10px;
+        font-size: 14px;
+        letter-spacing: 3px;
+        padding-top: 25px;
+        
+    }
+
+    .navigation a:last-child{
+        margin-right: 40px;
+    
+}
+
+.social{
+    float: right;
+    display: block;
+    margin-bottom: 50px;
+    margin-right: 370px;
+    
+    
+}
+
+.social-icon{
+    display: block;
+    color: white; 
+    
+    
+}
+
+.social-icon2{
+    display: block;
+    color: white;
+    margin-left: 20px; 
+
+   
+}
+.social-icon:hover,
+.social-icon:focus{
+    display: block;
+    color: grey;
+    
+}
+
+.social-icon2:hover,
+.social-icon2:focus{
+    display: block;
+    color: #0A66C2;
+}
+
+@media screen and (max-width: 530px ) {
+
+    .logo a{
+        font-size: 80px;
+    }
+
+    .container{
+        width: 50%;
+    }
+}
